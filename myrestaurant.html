@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Website</title>
+
+    <!-- Makes website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* basic body styling */
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        /* header section */
+        header {
+            background-color: darkred;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* navigation links */
+        nav a {
+            color: white;
+            margin: 5px;
+            text-decoration: none;
+        }
+
+        /* all sections */
+        section {
+            padding: 20px;
+        }
+
+        /* about section */
+        #about {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        /* menu section */
+        #menu {
+            text-align: center;
+        }
+
+        /* menu items container */
+        .menu-box {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* single menu item */
+        .item {
+            border: 1px solid black;
+            width: 180px;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* opening hours */
+        #hours {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        /* contact section */
+        #contact {
+            background-color: #ddd;
+            text-align: center;
+        }
+
+        /* footer */
+        footer {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- header with restaurant name -->
+    <header>
+        <h1>My Restaurant</h1>
+
+        <!-- navigation menu -->
+        <nav>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#hours">Hours</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- about section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            This is my restaurant website project.
+            We serve good food and fresh meals.
+        </p>
+    </section>
+
+    <!-- menu section -->
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <div class="menu-box">
+            <div class="item">
+                <h3>Pizza</h3>
+                <p>Cheese pizza</p>
+            </div>
+
+            <div class="item">
+                <h3>Burger</h3>
+                <p>Korean burger</p>
+            </div>
+
+            <div class="item">
+                <h3>Pasta</h3>
+                <p>Creamy pasta</p>
+            </div>
+
+            <div class="item">
+                <h3>Ice Cream</h3>
+                <p>Vanilla flavor</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- opening hours section -->
+    <section id="hours">
+        <h2>Opening Hours</h2>
+        <p>Monday to Friday: 9 AM - 9 PM</p>
+        <p>Saturday: 10 AM - 10 PM</p>
+        <p>Sunday: Closed</p>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <p>Address: City Center</p>
+        <p>Phone: 123456789</p>
+        <p>Email: restaurant@gmail.com</p>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <p>Copyright 2025</p>
+    </footer>
+
+</body>
+</html>
